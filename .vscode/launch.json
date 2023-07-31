@@ -4,27 +4,27 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-       
         {
-            "name": "flutter_localizations",
-            "cwd": ".fvm/3.10.6/packages/flutter_localizations",
-            "request": "launch",
-            "type": "dart"
-        },
-        {
-            "name": "flutter_localizations (profile mode)",
-            "cwd": ".fvm/3.10.6/packages/flutter_localizations",
+            "name": "flutter_mobile (debug mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "profile"
+            "flutterMode": "debug",
+            "program": "lib/main.dart"
         },
         {
-            "name": "flutter_localizations (release mode)",
-            "cwd": ".fvm/3.10.6/packages/flutter_localizations",
+            "name": "flutter_mobile (profile mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "release"
+            "flutterMode": "profile",
+            "program": "lib/main.dart"
         },
+        {
+            "name": "flutter_mobile (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main.dart"
+        }
        
     ]
 }
